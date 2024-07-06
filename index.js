@@ -13,7 +13,7 @@ console.log("HELLO")
 
 // MongoDB connectivity
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://venkatvp2000:Sureshraina3!@backenddb.hhlzofe.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB")
+mongoose.connect("XX")
   .then(() => {
     console.log('Connected to MongoDB Database!');
     app.listen(3000, () => {
